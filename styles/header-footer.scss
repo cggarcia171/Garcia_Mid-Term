@@ -1,10 +1,15 @@
-$header-yellow: #ffab00;
 $body-yellow: #ffc400;
+
 header{
     width: 320px;
     height: 54px;
-    background-color: $header-color;
+    background-color: #ffab00;
+    p{
+
+    }
+
 }
 footer{
-
+  @extend header;
+  background-color: #ffffff;
 }
