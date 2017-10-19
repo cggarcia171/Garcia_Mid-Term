@@ -1,0 +1,14 @@
+.hero{
+  background-image: url(../images/hero.jpg);
+  height: 33em;
+  width: 100%;
+  h2{
+    color: $herof;
+    font-family: $Lato;
+    padding: 6.875em 3.125em 16.875em 1.875em;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 1.8px;
+    line-height: 42px;
+  }
+}
