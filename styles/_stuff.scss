@@ -11,7 +11,3 @@ $event: #4c1a14;
 $foot: #6f8998;
 $button: #eb503c;
 /* quick mixin for the words of a document */
-@mixin words($font $color){
-  font-family: $font;
-  color: $color;
-}
