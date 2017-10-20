@@ -1,0 +1,41 @@
+article{
+  background-color: $yellow-body;
+  p{
+    font-family: 'Droid Serif', serif;
+    color: red;
+    letter-spacing: 0.9px;
+    padding: 20px 70px;
+    font-size: 15px;
+    color: $main;
+
+  }
+}
+.onep{
+  color: #4E1C07;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Droid Serif', serif;
+}
+
+.bar{
+  @include bar;
+}
+.upcoming{
+  @include date;
+  color: #eb503c;
+  font-weight: bold;
+  padding-bottom: 20px;
+  font-size: 16px;
+}
+.datename{
+  @include datename;
+}
+.datedate{
+  @include datedate;
+}
+.dateloc{
+  @include dateloc;
+}
+.meetlink{
+  @include meetlink;
+}

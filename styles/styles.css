@@ -50,7 +50,7 @@ table {
 /*for the yellow in the header*/
 /* fonts */
 /* word colors */
-/* quick mixin for the words of a document */
+/* quick mixin for the orange bar */
 header {
   background-color: #ffab00; }
   header p {
@@ -75,5 +75,67 @@ header {
     font-size: 32px;
     letter-spacing: 1.8px;
     line-height: 42px; }
+
+article {
+  background-color: #ffc400; }
+  article p {
+    font-family: 'Droid Serif', serif;
+    color: red;
+    letter-spacing: 0.9px;
+    padding: 20px 70px;
+    font-size: 15px;
+    color: #021d2c; }
+
+.onep {
+  color: #4E1C07;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Droid Serif', serif; }
+
+.bar {
+  background: #ee3e28;
+  width: 350px;
+  height: 1px;
+  margin: auto; }
+
+.upcoming {
+  font-family: none;
+  padding: 0px 70px;
+  color: black;
+  color: #eb503c;
+  font-weight: bold;
+  padding-bottom: 20px;
+  font-size: 16px; }
+
+.datename {
+  font-family: none;
+  padding: 0px 70px;
+  color: black;
+  color: #4C1A14;
+  font-size: 21px;
+  font-weight: bold;
+  font-family: "Droid Serif", serif; }
+
+.datedate {
+  font-family: none;
+  padding: 0px 70px;
+  color: black;
+  color: #021d2c;
+  font-weight: bold;
+  padding: 10px 70px;
+  font-family: "Lato", sans-serif; }
+
+.dateloc {
+  font-family: none;
+  padding: 0px 70px;
+  color: black;
+  color: #021d2c;
+  font-family: "Lato", sans-serif; }
+
+.meetlink {
+  text-decoration: none;
+  color: #4C1A14;
+  font-size: 16px;
+  font-weight: bold; }
 
 /*# sourceMappingURL=styles.css.map */
