@@ -1,10 +1,12 @@
 footer{
   background: white;
   height: 6.500em;
-  text-align: center;
-  color: $foot;
-  line-height: 28px;
   padding-top: 25px;
-  font-family: $Lato;
-  letter-spacing: 0.8px;
+  p{
+    text-align: center;
+    color: $foot;
+    line-height: 28px;
+    font-family: $Lato;
+    letter-spacing: 0.8px;
+  }
 }
