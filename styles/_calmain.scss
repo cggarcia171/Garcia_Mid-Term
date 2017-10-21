@@ -53,3 +53,14 @@ section{
     text-decoration: none;
   }
 }
+@media only screen and(min-width: 760px){
+.red{
+  display: inline-block;
+  width: 39%;
+  height: 288px;
+}
+.redder{
+  display: inline-block;
+  width: 60%;
+}
+}
