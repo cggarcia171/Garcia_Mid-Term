@@ -66,6 +66,11 @@ $herof: #efe9d8;
 @mixin bluenorm {
   font-family: $DS;
   color: $main;
-  
+}
+@mixin reds {
+  color: $herof;
+  font-family: $Lato;
+  font-size: 18px;
+  padding: 20px;
 
 }
