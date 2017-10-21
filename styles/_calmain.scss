@@ -1,0 +1,55 @@
+section{
+  div{
+    h2{
+      @include datename;
+      margin-top: 50px;
+    }
+    h4{
+      @include datedate;
+    }
+    h3{
+      @include dateloc;
+      padding-bottom: 20px;
+    }
+    a{
+      @include meetlink;
+      padding-left: 70px;
+    }
+  }
+}
+.red{
+  background-color: $button;
+  height: 13.500em;
+  h2{
+    color: $herof;
+    font-family: $DS;
+    font-weight: bold;
+    font-size: 21px;
+    padding: 20px;
+  }
+  p{
+    @include reds;
+  }
+  a{
+    text-decoration: none;
+    @include reds;
+  }
+}
+.redder{
+  background-color: #a13729;
+  height: 18.000em;
+  h2{
+    color: $herof;
+    font-family: $DS;
+    font-weight: bold;
+    font-size: 21px;
+    padding: 20px;
+  }
+  p{
+    @include reds;
+  }
+  a{
+    @include reds;
+    text-decoration: none;
+  }
+}
